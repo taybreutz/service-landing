@@ -1,21 +1,76 @@
-:root {
-    background-color: #c3e3f0;
+body {
+  margin: 0%;
 }
 
-a:visited, a:link, a:hover, a:active {
-    color: white;
-    text-decoration: none;
+html {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgb(0, 195, 255, 1),
+    rgb(190, 89, 58, 0)
+  );
+}
+
+.header {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0;
+  padding: 1rem;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  bottom: 4px;
+  font-size: 12px;
+  margin: 0 auto 0 auto;
+  margin-left: 45%;
+}
+
+a:visited,
+a:link,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
 }
 
 ul {
-    position: relative;
-    left: 50%;
-    display: inline-flex;
+  position: absolute;
+  left: 50%;
+  display: inline-flex;
 }
 
 li {
-    font-size: 24px;
-    list-style: none;
-    display: inline;
-    padding: 1rem;
+  font-size: 24px;
+  list-style: none;
+  display: inline;
+  padding: 1rem;
+}
+
+li:hover {
+  text-shadow: 1.5px 1px rgba(100, 124, 201, 0.466);
+}
+
+.button-container {
+  margin-top: 12%;
+  text-align: center;
+}
+
+.service-card {
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30rem;
+  width: 22rem;
+  box-shadow: 5px 5px 10px rgba(206, 111, 111, 0.678);
+  border-style: initial;
+  border-radius: 3%;
+}
+
+.service-card:hover {
+  cursor: pointer;
 }
