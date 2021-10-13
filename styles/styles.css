@@ -1,0 +1,21 @@
+:root {
+    background-color: #c3e3f0;
+}
+
+a:visited, a:link, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    position: relative;
+    left: 50%;
+    display: inline-flex;
+}
+
+li {
+    font-size: 24px;
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
