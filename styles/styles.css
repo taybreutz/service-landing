@@ -10,6 +10,7 @@ html {
     rgb(0, 195, 255, 1),
     rgb(190, 89, 58, 0)
   );
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -73,4 +74,13 @@ li:hover {
 
 .service-card:hover {
   cursor: pointer;
+}
+
+.paper-contract{
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  height: 85vh;
+  width: 40vw;
+  border-radius: 2px;
 }
