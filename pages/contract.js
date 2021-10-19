@@ -1,5 +1,7 @@
-const Request = () => {
-  return <div>Service Request</div>;
-};
+const Contract = () => {
+  return ( <div className="paper-contract">
+      Hello
+  </div> );
+}
 
-export default Request;
+export default Contract;

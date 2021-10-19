@@ -96,3 +96,12 @@ li:hover {
   cursor: pointer;
   /* box-shadow: none; */
 }
+
+.paper-contract {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  height: 85vh;
+  width: 40vw;
+  border-radius: 2px;
+}
