@@ -5,11 +5,7 @@ body {
 html {
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    to bottom right,
-    rgb(0, 195, 255, 1),
-    rgb(190, 89, 58, 0)
-  );
+  background-color: #ff555d;
 }
 
 .header {
@@ -56,21 +52,47 @@ li:hover {
 }
 
 .button-container {
-  margin-top: 12%;
+  margin-top: 8%;
   text-align: center;
 }
 
-.service-card {
+.service-card-1 {
+  display: inline-block;
   font-size: large;
   margin-left: 20px;
   margin-right: 20px;
   height: 30rem;
   width: 22rem;
-  box-shadow: 5px 5px 10px rgba(206, 111, 111, 0.678);
-  border-style: initial;
-  border-radius: 3%;
+  border-radius: 50px;
+  background: #ff555d;
+  box-shadow: 20px 20px 60px #a6373c, -20px -20px 60px #ff737e;
 }
 
-.service-card:hover {
+.service-card-2 {
+  display: inline-block;
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30rem;
+  width: 22rem;
+  border-radius: 50px;
+  background: #ff555d;
+  box-shadow: 20px -20px 60px #a6373c, -20px 20px 60px #ff737e;
+}
+
+.service-card-btn {
+  margin-top: 110%;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: gray;
+  border-radius: 50px;
+}
+
+.service-card-btn:hover {
   cursor: pointer;
+  /* box-shadow: none; */
 }
