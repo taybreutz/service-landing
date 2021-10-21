@@ -5,7 +5,8 @@ body {
 html {
   height: 100%;
   width: 100%;
-  background-color: #ff555d;
+  /* background-color: #ff555d; */
+  background-image: url("../public/fpfebackground.png");
 }
 
 .header {
